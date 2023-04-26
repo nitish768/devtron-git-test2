@@ -26,6 +26,7 @@ type CdApplicationStatusUpdateHandler interface {
 	ManualSyncPipelineStatus(appId, envId int, userId int32) error
 }
 
+
 type CdApplicationStatusUpdateHandlerImpl struct {
 	logger                           *zap.SugaredLogger
 	cron                             *cron.Cron
