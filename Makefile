@@ -59,6 +59,8 @@ docker-build-push: docker-build-image
 
 build-all: build
 	make --directory ./cmd/external-app build
+	
+	
 
 build-ea:
 	make --directory ./cmd/external-app build
