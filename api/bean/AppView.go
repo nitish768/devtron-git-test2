@@ -17,6 +17,7 @@
 
 package bean
 
+
 import (
 	"encoding/json"
 	"github.com/argoproj/argo-cd/v2/pkg/apis/application/v1alpha1"

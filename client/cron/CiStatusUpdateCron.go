@@ -15,6 +15,7 @@ type CiStatusUpdateCron interface {
 	UpdateCiWorkflowStatusFailedCron()
 }
 
+
 type CiStatusUpdateCronImpl struct {
 	logger                       *zap.SugaredLogger
 	cron                         *cron.Cron
