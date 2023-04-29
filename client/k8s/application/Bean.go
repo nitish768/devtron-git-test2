@@ -25,6 +25,3 @@ type ApplyResourcesResponse struct {
 	Error    string `json:"error"`
 	IsUpdate bool   `json:"isUpdate"`
 }
-
-
-//
