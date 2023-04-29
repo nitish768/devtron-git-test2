@@ -28,6 +28,7 @@ type Config struct {
 }
 
 
+
 func GetConfig() (*Config, error) {
 	cfg := &Config{}
 	err := env.Parse(cfg)
