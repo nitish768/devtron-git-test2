@@ -26,6 +26,7 @@ import (
 	"go.uber.org/zap"
 )
 
+
 func TestServiceClientImpl_getRolloutStatus(t *testing.T) {
 	type fields struct {
 		logger *zap.SugaredLogger

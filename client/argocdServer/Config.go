@@ -27,8 +27,6 @@ type Config struct {
 	Namespace string `env:"CD_NAMESPACE" envDefault:"devtroncd"`
 }
 
-
-
 func GetConfig() (*Config, error) {
 	cfg := &Config{}
 	err := env.Parse(cfg)
