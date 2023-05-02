@@ -15,6 +15,7 @@
  *
  */
 
+
 package bean
 
 // CreateVulnerabilityPolicyRequest defines model for CreateVulnerabilityPolicyRequest.
