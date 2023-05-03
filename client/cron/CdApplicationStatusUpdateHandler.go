@@ -17,6 +17,7 @@ import (
 	"strconv"
 )
 
+
 type CdApplicationStatusUpdateHandler interface {
 	HelmApplicationStatusUpdate()
 	ArgoApplicationStatusUpdate()
