@@ -14,6 +14,7 @@ type DashboardRouter interface {
 	InitDashboardRouter(router *mux.Router)
 }
 
+
 type DashboardRouterImpl struct {
 	logger         *zap.SugaredLogger
 	dashboardProxy func(writer http.ResponseWriter, request *http.Request)

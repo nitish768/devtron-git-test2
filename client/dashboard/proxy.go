@@ -15,6 +15,7 @@ func NewDashboardHTTPReverseProxy(serverAddr string, transport http.RoundTripper
 	target, err := url.Parse(serverAddr)
 	if err != nil {
 		log.Fatal(err)
+		
 	}
 	proxy := httputil.NewSingleHostReverseProxy(target)
 	proxy.Transport = transport
